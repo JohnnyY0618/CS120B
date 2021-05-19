@@ -10,9 +10,7 @@ Zybooks Reading and activity, so not lab available!
 PORTC = cntavail;).
 3. Extend the previous program to still write the available spaces number, but only to PC3..PC0, and to set PC7 to 1 if the lot is full.
 4. (**Challenge**) An amusement park kid ride cart has three seats, with 8-bit weight sensors connected to ports A, B, and C (measuring from 0-255 kilograms). Set PD0 to 1 if the cart's total passenger weight exceeds the maximum of 140 kg. Also, the cart must be balanced: Set port PD1 to 1 if the difference between A and C exceeds 80 kg.  The remaining 6 bits on D should display an approximation of the total combined weight.
-   
     <u>Hint</u>: You don’t have enough bits to represent the complete value; you only need to represent the most significant bits.
-    
     <u>Interesting note</u>: Disneyland recently redid their "It's a Small World" ride because the average passenger weight has increased over the years, causing more boats to get stuck on the bottom.
 
 ### Lab 3： Bit manipulation (Vehicle sensors)
