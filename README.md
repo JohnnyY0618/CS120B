@@ -64,7 +64,7 @@ PORTC = cntavail;).
 **Note**: MAX is the highest ADC value observed from exercise 2 of the lab.
 4. (**Challenge**) Design a system, using a bank of eight LEDs, where the number of LEDs illuminated is a representation of how much light is detected. For example, when more light is detected, more LEDs are illuminated. Criteria:
    The LEDs should illuminated in sequence from 0 to 7, based on the amount of light detected by the photoresistor.  
-   **Hints**:
+**Hints**:
    - Use the MAX ADC value observed from exercise 2 as the highest amount of light detectable by the photoresistor. Divide that number by eight to determine the thresholds for each LED.
 ### Lab 8: PWM (Music player)
 1. Using the ATmega1284’s PWM functionality, design a system that uses three buttons to select one of three tones to be generated on the speaker. When a button is pressed, the tone mapped to it is generated on the speaker. Criteria:
@@ -76,15 +76,13 @@ PORTC = cntavail;).
     - The system should scale up/down one note per button press.
     - When scaling down, the system should not scale below a C.
     - When scaling up, the system should not scale above a C. 
-**Hints**:
-* Breaking the system into multiple synchSMs could make this part easier.
+**Hints**: Breaking the system into multiple synchSMs could make this part easier.
 
 3. (**Challenge**) Using the ATmega1284’s built in PWM functionality, design a system where a short, five-second melody, is played when a button is pressed. NOTE: The melody must be somewhat complex (scaling from C to B is NOT complex). Criteria:
     - When the button is pressed, the melody should play until completion
     - Pressing the button again in the middle of the melody should do nothing
     - If the button is pressed and held, when the melody finishes, it should not repeat until the button is released and pressed again 
-**Hints**:
-   * One approach is to use three arrays. One array holds the sequence of notes for the melody. Another array holds the times that each note is held. The final array holds the down times between adjacent notes.
+**Hints**: One approach is to use three arrays. One array holds the sequence of notes for the melody. Another array holds the times that each note is held. The final array holds the down times between adjacent notes.
 
 ### Lab 9: Concurrent synchSMs
 1. Connect LEDs to PB0, PB1, PB2, and PB3.
