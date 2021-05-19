@@ -82,7 +82,7 @@ PORTC = cntavail;).
     - If the button is pressed and held, when the melody finishes, it should not repeat until the button is released and pressed again 
 **Hints**: One approach is to use three arrays. One array holds the sequence of notes for the melody. Another array holds the times that each note is held. The final array holds the down times between adjacent notes.
 
-### Lab 9: Concurrent synchSMs
+### Lab 9: Concurrent synchSMs (Noise maker device)
 1. Connect LEDs to PB0, PB1, PB2, and PB3.
     - In one state machine (ThreeLEDsSM), output to a shared variable (threeLEDs) the following behavior: set only bit 0 to 1, then only bit 1, then only bit 2 in sequence for 1 second each.
     - In a second state machine (BlinkingLEDSM), output to a shared variable (blinkingLED) the following behavior: set bit 3 to 1 for 1 second, then 0 for 1 second.
