@@ -1,4 +1,4 @@
-# CS120B
+# CS120B Spring 2021
 ## Introduction to Embedded Systems
 ### Lab 1
 Zybooks Reading and activity, so not lab available!
